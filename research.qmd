@@ -2,15 +2,20 @@
 title: "Research"
 ---
 
-## Current Projects
+## Research Interests
+**Modeling of Hydraulic Fracturing**
 
-**Phase-Field Modeling of Fracture**
+**Soil Mechanics**
 
-**Hydraulic Fracturing**
+**Geomechanics**
+
+**Poromechanics**
+---
+**Ph.D. Thesis:** Thesis title: [Computational modeling of hydraulic fracture in porous media](https://open.metu.edu.tr/handle/11511/118360)
+
+We developed a coupled thermo-hydro-damage-poro-elastic model for the hydraulic fracturing of porous media using a cohesive phase-field method.
 
 
+**M.Sc. Thesis:** Thesis title: [Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil](http://etd.lib.metu.edu.tr/upload/12625488/index.pdf)
 
-## Past Work
-**MSc Thesis:** Thesis title: [Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil](http://etd.lib.metu.edu.tr/upload/12625488/index.pdf)
-
-When a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. Prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in.  
+When a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. The prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in.  

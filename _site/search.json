@@ -11,7 +11,7 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Phase-Field Modeling of Fracture\nHydraulic Fracturing"
+    "text": "Modeling of Hydraulic Fracturing\nSoil Mechanics\nGeomechanics"
   },
   {
     "objectID": "research.html#current-projects",
@@ -25,20 +25,76 @@
     "href": "research.html#past-work",
     "title": "Research",
     "section": "Past Work",
-    "text": "Past Work\nMSc Thesis: Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. Prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
+    "text": "Past Work\nPh.D. Thesis: Thesis title: Computational modeling of hydraulic fracture in porous media\nWe developed a coupled thermo-hydro-damage-poro-elastic model for the hydraulic fracturing of porous media using a cohesive phase-field method.\nM.Sc. Thesis: Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. Prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Muhittin",
     "section": "",
-    "text": "I am a PhD Candidate in Civil Engineering at METU (ODTÜ), specializing in Computational Mechanics and Soil Mechanics."
+    "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025 M.Sc., Civil Engineering, Middle East Technical University, 2020 B.Sc.,Civil Engineering, Middle East Technical University, 2015"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Muhittin",
-    "section": "Education",
-    "text": "Education\nMiddle East Technical University | Ankara, Turkey PhD in Civil Engineering | Ongoing\nMiddle East Technical University | Ankara, Turkey BS in Civil Engineering"
+    "section": "",
+    "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025 M.Sc., Civil Engineering, Middle East Technical University, 2020 B.Sc.,Civil Engineering, Middle East Technical University, 2015"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching & Resources",
+    "section": "",
+    "text": "Important\n\n\n\nZemin Mekaniği I\n\n\n\n\n\n\n\n\nNote\n\n\n\nTemel İnşaatı"
+  },
+  {
+    "objectID": "teaching.html#announcements",
+    "href": "teaching.html#announcements",
+    "title": "Teaching & Resources",
+    "section": "",
+    "text": "Important\n\n\n\nMidterm Exam Update (CE 366) The midterm exam date has been moved to February 15th, 2026. Topics covered: Phase relationships, Classification, and Compaction.\n\n\n\n\n\n\n\n\nNote\n\n\n\nNew Data Set Uploaded The raw data from the CD Triaxial tests discussed in last week’s seminar is now available below."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching & Resources",
+    "section": "🎓 Courses",
+    "text": "🎓 Courses\n\nZemin Mekaniği 1\nRole: Teaching Assistant\nOffice Saatleri: Çarşamba 13:30 - 15:30\n\n\n\nWeek\nTopic\nMaterials\n\n\n\n\n1\nIntroduction to Deep Foundations\n📄 Syllabus\n\n\n2\nBearing Capacity Theory\n📊 Lecture Slides\n\n\n3\nPile Foundations\n📉 Example Problem"
+  },
+  {
+    "objectID": "teaching.html#research-data-sets",
+    "href": "teaching.html#research-data-sets",
+    "title": "Teaching & Resources",
+    "section": "💾 Research Data Sets",
+    "text": "💾 Research Data Sets\n\nDataset A: Consolidated Drained Triaxial Test Results\n\nDescription: Raw stress-strain data for Ankara Clay.\nFormat: .csv (Comma Separated Values)\n Download Data (12 MB)"
+  },
+  {
+    "objectID": "teaching.html#duyurular",
+    "href": "teaching.html#duyurular",
+    "title": "Teaching & Resources",
+    "section": "",
+    "text": "Important\n\n\n\nZemin Mekaniği I\n\n\n\n\n\n\n\n\nNote\n\n\n\nTemel İnşaatı"
+  },
+  {
+    "objectID": "teaching.html#dersler",
+    "href": "teaching.html#dersler",
+    "title": "Teaching & Resources",
+    "section": "🎓 Dersler",
+    "text": "🎓 Dersler\n\nZemin Mekaniği 1\nOffice Saatleri: Çarşamba 13:30 - 15:30\n\n\nTemel İnşaatı\nOffice Saatleri: Çarşamba 13:30 - 15:30"
+  },
+  {
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
+    "title": "Research",
+    "section": "",
+    "text": "Modeling of Hydraulic Fracturing\nSoil Mechanics\nGeomechanics"
+  },
+  {
+    "objectID": "research.html#poromechanics",
+    "href": "research.html#poromechanics",
+    "title": "Research",
+    "section": "Poromechanics",
+    "text": "Poromechanics\nPh.D. Thesis: Thesis title: Computational modeling of hydraulic fracture in porous media\nWe developed a coupled thermo-hydro-damage-poro-elastic model for the hydraulic fracturing of porous media using a cohesive phase-field method.\nM.Sc. Thesis: Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. The prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
   }
 ]

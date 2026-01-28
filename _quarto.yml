@@ -10,6 +10,10 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - text: "Software"
+        href: software.qmd
+      - text: "Teaching"      # <--- ADD THIS LINE
+        href: teaching.qmd    # <--- AND THIS LINE
       - href: publications.qmd
         text: Publications
     right:
