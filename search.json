@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "publications.html#conference-proceedings",
+    "href": "publications.html#conference-proceedings",
+    "title": "Publications",
+    "section": "Conference Proceedings",
+    "text": "Conference Proceedings"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Phase-Field Modeling of Fracture\nHydraulic Fracturing Analyzing soil behavior under shear stress."
+  },
+  {
+    "objectID": "research.html#current-projects",
+    "href": "research.html#current-projects",
+    "title": "Research",
+    "section": "",
+    "text": "Phase-Field Modeling of Fracture\nHydraulic Fracturing Analyzing soil behavior under shear stress."
+  },
+  {
+    "objectID": "research.html#past-work",
+    "href": "research.html#past-work",
+    "title": "Research",
+    "section": "Past Work",
+    "text": "Past Work\n\nMSc Thesis: Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\n\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. Prediction of permanent head displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Muhittin",
