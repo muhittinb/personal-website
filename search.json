@@ -1,44 +1,51 @@
 [
   {
-    "objectID": "publications.html#conference-proceedings",
-    "href": "publications.html#conference-proceedings",
-    "title": "Publications",
-    "section": "Conference Proceedings",
-    "text": "Conference Proceedings"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Muhittin",
+    "section": "",
+    "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc.,Civil Engineering, Middle East Technical University, 2015"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Muhittin",
+    "section": "",
+    "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc.,Civil Engineering, Middle East Technical University, 2015"
+  },
+  {
+    "objectID": "teaching.html#dersler",
+    "href": "teaching.html#dersler",
+    "title": "Teaching & Resources",
+    "section": "🎓 Dersler",
+    "text": "🎓 Dersler\n\nZemin Mekaniği 1\nOffice Saatleri: Çarşamba 13:30 - 15:30\n\n\nTemel İnşaatı\nOffice Saatleri: Çarşamba 13:30 - 15:30"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Phase-Field Modeling of Fracture\nHydraulic Fracturing"
+    "text": "Modeling of Hydraulic Fracturing\nSoil Mechanics\nGeomechanics"
   },
   {
-    "objectID": "research.html#current-projects",
-    "href": "research.html#current-projects",
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
     "title": "Research",
     "section": "",
-    "text": "Phase-Field Modeling of Fracture\nHydraulic Fracturing"
+    "text": "Modeling of Hydraulic Fracturing\nSoil Mechanics\nGeomechanics"
   },
   {
-    "objectID": "research.html#past-work",
-    "href": "research.html#past-work",
+    "objectID": "research.html#poromechanics",
+    "href": "research.html#poromechanics",
     "title": "Research",
-    "section": "Past Work",
-    "text": "Past Work\nMSc Thesis: Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. Prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
+    "section": "Poromechanics",
+    "text": "Poromechanics\nPh.D. Thesis: Thesis title: Computational modeling of hydraulic fracture in porous media\nWe developed a coupled thermo-hydro-damage-poro-elastic model for the hydraulic fracturing of porous media using a cohesive phase-field method.\nM.Sc. Thesis: Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. The prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Muhittin",
-    "section": "",
-    "text": "I am a PhD Candidate in Civil Engineering at METU (ODTÜ), specializing in Computational Mechanics and Soil Mechanics."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Muhittin",
-    "section": "Education",
-    "text": "Education\nMiddle East Technical University | Ankara, Turkey PhD in Civil Engineering | Ongoing\nMiddle East Technical University | Ankara, Turkey BS in Civil Engineering"
+    "objectID": "publications.html#conference-proceedings",
+    "href": "publications.html#conference-proceedings",
+    "title": "Publications",
+    "section": "Conference Proceedings",
+    "text": "Conference Proceedings"
   }
 ]
