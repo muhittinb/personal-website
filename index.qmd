@@ -1,0 +1,20 @@
+---
+title: "Muhittin"
+about:
+  template: jolla  # Options: jolla, trestles, solana
+  image: profile.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/muhittinb
+---
+
+I am a PhD Candidate in Civil Engineering at METU (ODTÜ), specializing in **Computational Mechanics** and **Soil Mechanics**.
+
+## Education
+
+**Middle East Technical University** | Ankara, Turkey
+PhD in Civil Engineering | Ongoing
+
+**Middle East Technical University** | Ankara, Turkey
+BS in Civil Engineering

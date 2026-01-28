@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Muhittin Babaoglu"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+    right:
+      - icon: github
+        href: https://github.com/muhittinb
+
+format:
+  html:
+    theme: cosmo  # "cosmo", "journal", or "minimal" are good for academics
+    css: styles.css
+    toc: true
