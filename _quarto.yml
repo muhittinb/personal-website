@@ -12,8 +12,8 @@ website:
         text: Publications
       - text: "Teaching"      
         href: teaching.qmd  
-      - text: "Software"
-        href: software.qmd
+      - text: "Codes"
+        href: codes.qmd
 
 format:
   html:
