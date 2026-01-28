@@ -14,55 +14,6 @@
     "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc., Civil Engineering, Middle East Technical University, 2015"
   },
   {
-    "objectID": "teaching.html#dersler",
-    "href": "teaching.html#dersler",
-    "title": "Teaching & Resources",
-    "section": "🎓 Dersler",
-    "text": "🎓 Dersler\n\nZemin Mekaniği 1\nOffice Saatleri: Çarşamba 13:30 - 15:30\n\n\nTemel İnşaatı\nOffice Saatleri: Çarşamba 13:30 - 15:30"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Hydraulic Fracturing\nGeomechanics\nComputational Modeling"
-  },
-  {
-    "objectID": "research.html#research-interests",
-    "href": "research.html#research-interests",
-    "title": "Research",
-    "section": "",
-    "text": "Hydraulic Fracturing\nGeomechanics\nComputational Modeling"
-  },
-  {
-    "objectID": "research.html#poromechanics",
-    "href": "research.html#poromechanics",
-    "title": "Research",
-    "section": "Poromechanics",
-    "text": "Poromechanics\nPh.D. Thesis: Thesis title: Computational modeling of hydraulic fracture in porous media\nWe developed a coupled thermo-hydro-damage-poro-elastic model for the hydraulic fracturing of porous media using a cohesive phase-field method.\nM.Sc. Thesis: Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. The prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
-  },
-  {
-    "objectID": "publications.html#conference-proceedings",
-    "href": "publications.html#conference-proceedings",
-    "title": "Publications",
-    "section": "Conference Proceedings",
-    "text": "Conference Proceedings"
-  },
-  {
-    "objectID": "publications.html#thesis",
-    "href": "publications.html#thesis",
-    "title": "Publications",
-    "section": "Thesis",
-    "text": "Thesis\nPh.D. Thesis: Thesis title: Computational modeling of hydraulic fracture in porous media\nWe developed a coupled thermo-hydro-damage-poro-elastic model for the hydraulic fracturing of porous media using a cohesive phase-field method.\nM.Sc. Thesis: Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. The prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
-  },
-  {
-    "objectID": "publications.html#theses",
-    "href": "publications.html#theses",
-    "title": "Publications",
-    "section": "Theses",
-    "text": "Theses\nPh.D. Thesis title: Computational modeling of hydraulic fracture in porous media\nWe developed a coupled thermo-hydro-damage-poro-elastic model for the hydraulic fracturing of porous media using a cohesive phase-field method.\nM.Sc. Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. The prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
-  },
-  {
     "objectID": "index.html#research-interests",
     "href": "index.html#research-interests",
     "title": "Muhittin Babaoglu",
@@ -70,10 +21,17 @@
     "text": "Research Interests\n\nGeomechanics\nComputational Modeling\nHydraulic Fracturing"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
+    "objectID": "teaching.html#dersler",
+    "href": "teaching.html#dersler",
+    "title": "Teaching",
+    "section": "🎓 Dersler",
+    "text": "🎓 Dersler\n\nZemin Mekaniği 1\nOffice Saatleri: Çarşamba 13:30 - 15:30\n\n\nTemel İnşaatı\nOffice Saatleri: Çarşamba 13:30 - 15:30"
+  },
+  {
+    "objectID": "publications.html#theses",
+    "href": "publications.html#theses",
     "title": "Publications",
-    "section": "",
-    "text": "Ph.D. Thesis title: Computational modeling of hydraulic fracture in porous media\nWe developed a coupled thermo-hydro-damage-poro-elastic model for the hydraulic fracturing of porous media using a cohesive phase-field method.\nM.Sc. Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. The prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
+    "section": "Theses",
+    "text": "Theses\nPh.D. Thesis title: Computational modeling of hydraulic fracture in porous media\nWe developed a coupled thermo-hydro-damage-poro-elastic model for the hydraulic fracturing of porous media using a cohesive phase-field method.\nM.Sc. Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. The prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
   }
 ]

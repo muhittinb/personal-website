@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Teaching &amp; Resources</title>
+<title>Teaching</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -95,12 +95,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
-<span class="menu-text">Software</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./teaching.html" aria-current="page"> 
 <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./software.html"> 
+<span class="menu-text">Software</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -118,8 +118,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#duyurular" id="toc-duyurular" class="nav-link active" data-scroll-target="#duyurular">📢 Duyurular</a></li>
-  <li><a href="#dersler" id="toc-dersler" class="nav-link" data-scroll-target="#dersler">🎓 Dersler</a>
+  <li><a href="#dersler" id="toc-dersler" class="nav-link active" data-scroll-target="#dersler">🎓 Dersler</a>
   <ul class="collapse">
   <li><a href="#zemin-mekaniği-1" id="toc-zemin-mekaniği-1" class="nav-link" data-scroll-target="#zemin-mekaniği-1">Zemin Mekaniği 1</a></li>
   <li><a href="#temel-inşaatı" id="toc-temel-inşaatı" class="nav-link" data-scroll-target="#temel-inşaatı">Temel İnşaatı</a></li>
@@ -132,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Teaching &amp; Resources</h1>
+<h1 class="title">Teaching</h1>
 </div>
 
 
@@ -149,10 +148,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="duyurular" class="level2">
-<h2 class="anchored" data-anchor-id="duyurular">📢 Duyurular</h2>
+<!-- ## 📢 Duyurular -->
 <hr>
-</section>
 <section id="dersler" class="level2">
 <h2 class="anchored" data-anchor-id="dersler">🎓 Dersler</h2>
 <section id="zemin-mekaniği-1" class="level3">
@@ -241,7 +238,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/muhittin\.org");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
