@@ -1,8 +1,8 @@
 ---
-title: "Teaching & Resources"
+title: "Teaching"
 ---
 
-## 📢 Duyurular
+<!-- ## 📢 Duyurular -->
 
 
 ---

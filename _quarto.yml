@@ -3,25 +3,20 @@ project:
   output-dir: _site
 
 website:
-  title: "Muhittin Babaoglu"
+  favicon: fig/favicon2.png
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: research.qmd
-        text: Research
-      - text: "Software"
-        href: software.qmd
-      - text: "Teaching"      # <--- ADD THIS LINE
-        href: teaching.qmd    # <--- AND THIS LINE
       - href: publications.qmd
         text: Publications
-    right:
-      - icon: github
-        href: https://github.com/muhittinb
+      - text: "Teaching"      
+        href: teaching.qmd  
+      - text: "Software"
+        href: software.qmd
 
 format:
   html:
-    theme: cosmo  # "cosmo", "journal", or "minimal" are good for academics
+    theme: minimal  # "cosmo", "journal", or "minimal" are good for academics
     css: styles.css
     toc: true

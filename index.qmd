@@ -1,9 +1,12 @@
 ---
-title: "Muhittin"
+title: "Muhittin Babaoglu"
 about:
-  template: trestles  # Options: jolla, trestles, solana
-  image: profile.jpg
+  template: solana  # Options: jolla, trestles, solana
+  image: fig/profile.jpg
   links:
+    - icon: envelope
+      text: Email
+      href: mailto:mbabaoglu@ktun.edu.tr
     - icon: github
       text: Github
       href: https://github.com/muhittinb
@@ -11,8 +14,14 @@ about:
 
 ## Education
 
-**Ph.D., Civil Engineering, Middle East Technical University, 2025**
+**Ph.D.**, Civil Engineering, Middle East Technical University, 2025
 
-**M.Sc., Civil Engineering, Middle East Technical University, 2020**
+**M.Sc.**, Civil Engineering, Middle East Technical University, 2020
 
-**B.Sc.,Civil Engineering, Middle East Technical University, 2015**
+**B.Sc.**, Civil Engineering, Middle East Technical University, 2015
+
+## Research Interests
+
+* Geomechanics
+* Computational Modeling
+* Hydraulic Fracturing
