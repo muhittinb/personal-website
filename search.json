@@ -2,50 +2,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Muhittin",
+    "title": "Muhittin Babaoglu",
     "section": "",
-    "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc.,Civil Engineering, Middle East Technical University, 2015"
+    "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc., Civil Engineering, Middle East Technical University, 2015"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Muhittin",
+    "title": "Muhittin Babaoglu",
     "section": "",
-    "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc.,Civil Engineering, Middle East Technical University, 2015"
+    "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc., Civil Engineering, Middle East Technical University, 2015"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Muhittin Babaoglu",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nGeomechanics\nComputational Modeling\nHydraulic Fracturing"
   },
   {
     "objectID": "teaching.html#dersler",
     "href": "teaching.html#dersler",
-    "title": "Teaching & Resources",
+    "title": "Teaching",
     "section": "🎓 Dersler",
     "text": "🎓 Dersler\n\nZemin Mekaniği 1\nOffice Saatleri: Çarşamba 13:30 - 15:30\n\n\nTemel İnşaatı\nOffice Saatleri: Çarşamba 13:30 - 15:30"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Modeling of Hydraulic Fracturing\nSoil Mechanics\nGeomechanics"
-  },
-  {
-    "objectID": "research.html#research-interests",
-    "href": "research.html#research-interests",
-    "title": "Research",
-    "section": "",
-    "text": "Modeling of Hydraulic Fracturing\nSoil Mechanics\nGeomechanics"
-  },
-  {
-    "objectID": "research.html#poromechanics",
-    "href": "research.html#poromechanics",
-    "title": "Research",
-    "section": "Poromechanics",
-    "text": "Poromechanics\nPh.D. Thesis: Thesis title: Computational modeling of hydraulic fracture in porous media\nWe developed a coupled thermo-hydro-damage-poro-elastic model for the hydraulic fracturing of porous media using a cohesive phase-field method.\nM.Sc. Thesis: Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. The prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
-  },
-  {
-    "objectID": "publications.html#conference-proceedings",
-    "href": "publications.html#conference-proceedings",
+    "objectID": "publications.html#theses",
+    "href": "publications.html#theses",
     "title": "Publications",
-    "section": "Conference Proceedings",
-    "text": "Conference Proceedings"
+    "section": "Theses",
+    "text": "Theses\nPh.D. Thesis title: Computational modeling of hydraulic fracture in porous media\nWe developed a coupled thermo-hydro-damage-poro-elastic model for the hydraulic fracturing of porous media using a cohesive phase-field method.\nM.Sc. Thesis title: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nWhen a wind turbine is cyclically loaded by wind or wave, the pile foundation distributes stress to the granular material. This loading condition leads to the permanent deformation of foundation material, and eventually, the pile head shifts. The prediction of permanent displacement of the pile mainly depends on the understanding of the behavior of granular material where the pile is embedded in."
   }
 ]
