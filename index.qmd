@@ -22,6 +22,7 @@ about:
 
 ## Research Interests
 
+* Fracture Mechanics
 * Geomechanics
 * Computational Modeling
 * Hydraulic Fracturing

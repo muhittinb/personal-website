@@ -6,13 +6,13 @@ title: "Teaching"
 
 
 
-## 🎓 Dersler
+## 🎓 Dersler (Courses)
 
-### Zemin Mekaniği 1
-**Ofis Saatleri:** Çarşamba 13:30 - 15:30
+### Zemin Mekaniği 1 (Soil Mechanics I)
 
-### Temel İnşaatı
-**Ofis Saatleri:** Çarşamba 13:30 - 15:30
+### Zemin Mekaniği 2 (Soil Mechanics II)
+
+### Temel İnşaatı (Foundation Engineering)
 
 
 
