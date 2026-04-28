@@ -3,7 +3,7 @@ title: "Publications"
 ---
 
 ## Journal Papers
-[A topological approach to crack path detection and crack opening displacement calculation in phase-field models of fracture](https://doi.org/10.1016/j.cma.2026.119016)
+* **A topological approach to crack path detection and crack opening displacement calculation in phase-field models of fracture** *Computer Methods in Applied Mechanics and Engineering (2026)* [[Publisher Site]](https://doi.org/10.1016/j.cma.2026.119016) [[BibTeX]](#) [[PDF]](#)
 
 
 <!-- ## Conference Proceedings -->
