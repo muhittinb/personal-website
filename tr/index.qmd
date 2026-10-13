@@ -1,0 +1,28 @@
+---
+title: "Muhittin Babaoglu"
+about:
+  template: solana
+  image: ../fig/profile.jpg
+  links:
+    - icon: envelope
+      text: E-posta
+      href: mailto:mbabaoglu@ktun.edu.tr
+    - icon: github
+      text: GitHub
+      href: https://github.com/muhittinb
+---
+
+## Eğitim
+
+**Doktora**, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025
+
+**Yüksek Lisans**, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020
+
+**Lisans**, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015
+
+## Araştırma Alanları
+
+* Kırılma Mekaniği
+* Geomekanik
+* Hesaplamalı Modelleme
+* Hidrolik Kırılma

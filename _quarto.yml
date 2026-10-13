@@ -3,6 +3,7 @@ project:
   output-dir: _site
 
 website:
+  site-url: https://muhittin.org
   favicon: fig/favicon2.png
   navbar:
     left:
@@ -14,9 +15,15 @@ website:
         href: teaching.qmd  
       - text: "Codes"
         href: codes.qmd
+    right:
+      - href: index.qmd
+        text: English
+      - href: tr/index.qmd
+        text: Türkçe
 
 format:
   html:
     theme: minimal  # "cosmo", "journal", or "minimal" are good for academics
     css: styles.css
     toc: true
+    include-after-body: language-switch.html

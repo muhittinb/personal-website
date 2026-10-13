@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://muhittin.org/tr/publications.html</loc>
+    <lastmod>2026-10-13T08:18:49.529Z</lastmod>
+  </url>
+  <url>
+    <loc>https://muhittin.org/tr/codes.html</loc>
+    <lastmod>2026-10-13T08:18:49.569Z</lastmod>
+  </url>
+  <url>
     <loc>https://muhittin.org/publications.html</loc>
     <lastmod>2026-04-28T18:56:36.475Z</lastmod>
   </url>
@@ -10,10 +18,18 @@
   </url>
   <url>
     <loc>https://muhittin.org/teaching.html</loc>
-    <lastmod>2026-10-13T08:03:46.983Z</lastmod>
+    <lastmod>2026-10-13T08:07:57.980Z</lastmod>
   </url>
   <url>
     <loc>https://muhittin.org/index.html</loc>
     <lastmod>2026-04-26T10:08:47.470Z</lastmod>
+  </url>
+  <url>
+    <loc>https://muhittin.org/tr/teaching.html</loc>
+    <lastmod>2026-10-13T08:18:49.549Z</lastmod>
+  </url>
+  <url>
+    <loc>https://muhittin.org/tr/index.html</loc>
+    <lastmod>2026-10-13T08:18:49.509Z</lastmod>
   </url>
 </urlset>

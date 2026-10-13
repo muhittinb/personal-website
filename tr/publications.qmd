@@ -1,0 +1,17 @@
+---
+title: "Yayınlar"
+---
+
+## Dergi Makaleleri
+
+* **A topological approach to crack path detection and crack opening displacement calculation in phase-field models of fracture** *Computer Methods in Applied Mechanics and Engineering (2026)* [[Yayıncı Sayfası]](https://doi.org/10.1016/j.cma.2026.119016)
+
+## Tezler
+
+**Doktora** — Tez başlığı: [Computational modeling of hydraulic fracture in porous media](https://open.metu.edu.tr/handle/11511/118360)
+
+Gözenekli ortamlarda hidrolik kırılmayı modellemek için kohezif faz alanı yöntemini kullanarak termal, hidrolik, hasar ve poroelastik süreçleri birlikte ele alan bir model geliştirdik.
+
+**Yüksek Lisans** — Tez başlığı: [Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil](http://etd.lib.metu.edu.tr/upload/12625488/index.pdf)
+
+Bir rüzgâr türbini rüzgâr veya dalga etkisiyle tekrarlı yüklere maruz kaldığında, kazıklı temel gerilmeleri daneli zemine aktarır. Bu yükleme, temel zemininde kalıcı deformasyona ve zamanla kazık başının yer değiştirmesine yol açar. Kazığın kalıcı yer değiştirmesinin tahmini, büyük ölçüde kazığın içinde bulunduğu daneli zeminin davranışının anlaşılmasına bağlıdır.
