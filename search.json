@@ -46,7 +46,14 @@
     "href": "index.html",
     "title": "Muhittin Babaoglu",
     "section": "",
-    "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc., Civil Engineering, Middle East Technical University, 2015"
+    "text": "Email\n  \n  \n    \n     Github\n  \n\n      \n\n\n\nFracture Mechanics\nGeomechanics\nComputational Modeling\nHydraulic Fracturing\n\n\n\n\nPh.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc., Civil Engineering, Middle East Technical University, 2015"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Muhittin Babaoglu",
+    "section": "",
+    "text": "Fracture Mechanics\nGeomechanics\nComputational Modeling\nHydraulic Fracturing"
   },
   {
     "objectID": "index.html#education",
@@ -56,18 +63,25 @@
     "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc., Civil Engineering, Middle East Technical University, 2015"
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
+    "objectID": "index.html#three-point-bending",
+    "href": "index.html#three-point-bending",
     "title": "Muhittin Babaoglu",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nFracture Mechanics\nGeomechanics\nComputational Modeling\nHydraulic Fracturing"
+    "section": "Three-point bending",
+    "text": "Three-point bending\nCrack propagation from a notch, modeled with a phase-field formulation.\n\n\n\nDownload the crack-propagation video.\n\n\n\nDamage field \\(d\\) on the deformed mesh. Displacements are magnified 15× for visibility. The inset shows the notch and propagating crack. Playback follows 100 saved simulation steps."
   },
   {
     "objectID": "tr/index.html",
     "href": "tr/index.html",
     "title": "Muhittin Babaoglu",
     "section": "",
-    "text": "Doktora, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025\nYüksek Lisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020\nLisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015"
+    "text": "E-posta\n  \n  \n    \n     GitHub\n  \n\n      \n\n\n\nKırılma Mekaniği\nGeomekanik\nHesaplamalı Modelleme\nHidrolik Kırılma\n\n\n\n\nDoktora, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025\nYüksek Lisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020\nLisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015"
+  },
+  {
+    "objectID": "tr/index.html#araştırma-alanları",
+    "href": "tr/index.html#araştırma-alanları",
+    "title": "Muhittin Babaoglu",
+    "section": "",
+    "text": "Kırılma Mekaniği\nGeomekanik\nHesaplamalı Modelleme\nHidrolik Kırılma"
   },
   {
     "objectID": "tr/index.html#eğitim",
@@ -77,10 +91,10 @@
     "text": "Doktora, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025\nYüksek Lisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020\nLisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015"
   },
   {
-    "objectID": "tr/index.html#araştırma-alanları",
-    "href": "tr/index.html#araştırma-alanları",
+    "objectID": "tr/index.html#üç-noktalı-eğilme",
+    "href": "tr/index.html#üç-noktalı-eğilme",
     "title": "Muhittin Babaoglu",
-    "section": "Araştırma Alanları",
-    "text": "Araştırma Alanları\n\nKırılma Mekaniği\nGeomekanik\nHesaplamalı Modelleme\nHidrolik Kırılma"
+    "section": "Üç noktalı eğilme",
+    "text": "Üç noktalı eğilme\nFaz alanı yöntemiyle modellenen, çentikten başlayan çatlak ilerlemesi.\n\n\n\nÇatlak ilerlemesi videosunu indirin.\n\n\n\nDeforme olmuş ağ üzerinde hasar alanı \\(d\\). Yer değiştirmeler, daha iyi görülebilmesi için 15 kat büyütülmüştür. Yakın görünüm, çentiği ve ilerleyen çatlağı gösterir. Video, kaydedilmiş 100 çözüm adımını izler."
   }
 ]

@@ -4,3 +4,20 @@
   text-decoration: underline;
   text-underline-offset: 0.25em;
 }
+
+.research-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 1;
+  background: #fbfcfe;
+  border: 1px solid #d5e1eb;
+  border-radius: 0.5rem;
+}
+
+.video-caption {
+  margin-top: 0.75rem;
+  color: #526272;
+  font-size: 0.9em;
+  line-height: 1.6;
+}

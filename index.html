@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -125,13 +154,18 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#research-interests" id="toc-research-interests" class="nav-link" data-scroll-target="#research-interests">Research Interests</a></li>
+  <li><a href="#three-point-bending" id="toc-three-point-bending" class="nav-link active" data-scroll-target="#three-point-bending">Three-point bending</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+
+
+
 <div class="quarto-about-solana column-body">
   <div class="about-entity">
     <div class="entity-contents">
@@ -151,14 +185,7 @@ ul.task-list li input[type="checkbox"] {
      <span class="about-link-text">Github</span>
   </a>
 </div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p><strong>Ph.D.</strong>, Civil Engineering, Middle East Technical University, 2025</p>
-<p><strong>M.Sc.</strong>, Civil Engineering, Middle East Technical University, 2020</p>
-<p><strong>B.Sc.</strong>, Civil Engineering, Middle East Technical University, 2015</p>
-</section>
+      <div class="about-contents"><div id="profile-content">
 <section id="research-interests" class="level2">
 <h2 data-anchor-id="research-interests">Research Interests</h2>
 <ul>
@@ -167,16 +194,38 @@ ul.task-list li input[type="checkbox"] {
 <li>Computational Modeling</li>
 <li>Hydraulic Fracturing</li>
 </ul>
-
-
 </section>
-</main></div>
+<section id="education" class="level2">
+<h2 data-anchor-id="education">Education</h2>
+<p><strong>Ph.D.</strong>, Civil Engineering, Middle East Technical University, 2025</p>
+<p><strong>M.Sc.</strong>, Civil Engineering, Middle East Technical University, 2020</p>
+<p><strong>B.Sc.</strong>, Civil Engineering, Middle East Technical University, 2015</p>
+</section>
+</div></div>
     </div>
     <img src="fig/profile.jpg" class="about-image
   rounded " style="width: 15em;">
   </div>
 </div>
- <!-- /main -->
+
+<section id="three-point-bending" class="level2">
+<h2 data-anchor-id="three-point-bending">Three-point bending</h2>
+<p>Crack propagation from a notch, modeled with a phase-field formulation.</p>
+<video class="research-video" controls="" loop="" playsinline="" preload="none" poster="fig/three-point-bending.webp" aria-label="Phase-field simulation of crack propagation in a three-point bending test">
+<source src="fig/three-point-bending.mp4" type="video/mp4">
+<p>
+<a href="fig/three-point-bending.mp4">Download the crack-propagation video.</a>
+</p>
+</video>
+<div class="video-caption">
+<p>Damage field <span class="math inline">\(d\)</span> on the deformed mesh. Displacements are magnified <strong>15×</strong> for visibility. The inset shows the notch and propagating crack. Playback follows 100 saved simulation steps.</p>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script>
 (() => {
   const links = Array.from(document.querySelectorAll('.navbar .nav-link'));
