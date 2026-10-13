@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://muhittin.org/tr/publications.html</loc>
-    <lastmod>2026-10-13T08:18:49.529Z</lastmod>
+    <loc>https://muhittin.org/tr/simulations.html</loc>
+    <lastmod>2026-10-13T09:58:51.298Z</lastmod>
   </url>
   <url>
-    <loc>https://muhittin.org/tr/codes.html</loc>
-    <lastmod>2026-10-13T08:18:49.569Z</lastmod>
+    <loc>https://muhittin.org/tr/index.html</loc>
+    <lastmod>2026-10-13T09:58:51.298Z</lastmod>
+  </url>
+  <url>
+    <loc>https://muhittin.org/tr/teaching.html</loc>
+    <lastmod>2026-10-13T08:18:49.549Z</lastmod>
   </url>
   <url>
     <loc>https://muhittin.org/publications.html</loc>
@@ -22,14 +26,18 @@
   </url>
   <url>
     <loc>https://muhittin.org/index.html</loc>
-    <lastmod>2026-10-13T08:56:25.918Z</lastmod>
+    <lastmod>2026-10-13T09:58:51.298Z</lastmod>
   </url>
   <url>
-    <loc>https://muhittin.org/tr/teaching.html</loc>
-    <lastmod>2026-10-13T08:18:49.549Z</lastmod>
+    <loc>https://muhittin.org/simulations.html</loc>
+    <lastmod>2026-10-13T10:01:16.115Z</lastmod>
   </url>
   <url>
-    <loc>https://muhittin.org/tr/index.html</loc>
-    <lastmod>2026-10-13T08:56:25.946Z</lastmod>
+    <loc>https://muhittin.org/tr/codes.html</loc>
+    <lastmod>2026-10-13T08:18:49.569Z</lastmod>
+  </url>
+  <url>
+    <loc>https://muhittin.org/tr/publications.html</loc>
+    <lastmod>2026-10-13T08:18:49.529Z</lastmod>
   </url>
 </urlset>
