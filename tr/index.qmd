@@ -31,16 +31,3 @@ about:
 **Lisans**, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015
 
 :::
-
-## Üç noktalı eğilme
-
-Faz alanı yöntemiyle modellenen, çentikten başlayan çatlak ilerlemesi.
-
-<video class="research-video" controls loop playsinline preload="none" poster="../fig/three-point-bending.webp" aria-label="Üç noktalı eğilme deneyinde çatlak ilerlemesinin faz alanı yöntemiyle modellenmesi">
-  <source src="../fig/three-point-bending.mp4" type="video/mp4">
-  <p><a href="../fig/three-point-bending.mp4">Çatlak ilerlemesi videosunu indirin.</a></p>
-</video>
-
-::: {.video-caption}
-Deforme olmuş ağ üzerinde hasar alanı $d$. Yer değiştirmeler, daha iyi görülebilmesi için **15 kat** büyütülmüştür. Yakın görünüm, çentiği ve ilerleyen çatlağı gösterir. Video, kaydedilmiş 100 çözüm adımını izler.
-:::

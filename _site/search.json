@@ -1,24 +1,45 @@
 [
   {
-    "objectID": "tr/publications.html",
-    "href": "tr/publications.html",
-    "title": "Yayınlar",
+    "objectID": "tr/simulations.html",
+    "href": "tr/simulations.html",
+    "title": "Simülasyonlar",
     "section": "",
-    "text": "A topological approach to crack path detection and crack opening displacement calculation in phase-field models of fracture Computer Methods in Applied Mechanics and Engineering (2026) [Yayıncı Sayfası]"
+    "text": "Alanlar\nDenklemler\nSınır koşulları\n\n\n\n\n\\(\\boldsymbol{u}(\\boldsymbol{x},t)\\)\n\\(\\operatorname{div}(\\underline{\\boldsymbol{\\sigma}})+\\bar{\\boldsymbol{b}}=\\boldsymbol{0}\\)\n\\(\\begin{aligned}\\boldsymbol{u}&=\\bar{\\boldsymbol{u}} &&\\partial\\mathcal{B}_{u}\\times[0,T]\\text{ üzerinde}\\\\ \\underline{\\boldsymbol{\\sigma}}\\boldsymbol{n}&=\\bar{\\boldsymbol{t}} &&\\partial\\mathcal{B}_{t}\\times[0,T]\\text{ üzerinde}\\end{aligned}\\)\n\n\n\\(d(\\boldsymbol{x},t)\\)\n\\(\\operatorname{div}\\boldsymbol{q}_{d}-\\underline{\\mathcal{H}}_{d}+f_{d}=0\\)\n\\(\\boldsymbol{q}_{d}\\cdot\\boldsymbol{n}_{\\mathcal{L}}=0\\quad\\partial\\mathcal{L}\\times[0,T]\\text{ üzerinde}\\)\n\n\n\n\nFaz alanı yöntemiyle modellenen, çentikten başlayan çatlak ilerlemesi.\n\n\n\nÇatlak ilerlemesi videosunu indirin.\n\n\n\nDeforme olmuş ağ üzerinde hasar alanı \\(d\\). Yer değiştirmeler, daha iyi görülebilmesi için 15 kat büyütülmüştür. Yakın görünüm, çentiği ve ilerleyen çatlağı gösterir. Video, kaydedilmiş 100 çözüm adımını izler."
   },
   {
-    "objectID": "tr/publications.html#dergi-makaleleri",
-    "href": "tr/publications.html#dergi-makaleleri",
-    "title": "Yayınlar",
+    "objectID": "tr/simulations.html#üç-noktalı-eğilme",
+    "href": "tr/simulations.html#üç-noktalı-eğilme",
+    "title": "Simülasyonlar",
     "section": "",
-    "text": "A topological approach to crack path detection and crack opening displacement calculation in phase-field models of fracture Computer Methods in Applied Mechanics and Engineering (2026) [Yayıncı Sayfası]"
+    "text": "Alanlar\nDenklemler\nSınır koşulları\n\n\n\n\n\\(\\boldsymbol{u}(\\boldsymbol{x},t)\\)\n\\(\\operatorname{div}(\\underline{\\boldsymbol{\\sigma}})+\\bar{\\boldsymbol{b}}=\\boldsymbol{0}\\)\n\\(\\begin{aligned}\\boldsymbol{u}&=\\bar{\\boldsymbol{u}} &&\\partial\\mathcal{B}_{u}\\times[0,T]\\text{ üzerinde}\\\\ \\underline{\\boldsymbol{\\sigma}}\\boldsymbol{n}&=\\bar{\\boldsymbol{t}} &&\\partial\\mathcal{B}_{t}\\times[0,T]\\text{ üzerinde}\\end{aligned}\\)\n\n\n\\(d(\\boldsymbol{x},t)\\)\n\\(\\operatorname{div}\\boldsymbol{q}_{d}-\\underline{\\mathcal{H}}_{d}+f_{d}=0\\)\n\\(\\boldsymbol{q}_{d}\\cdot\\boldsymbol{n}_{\\mathcal{L}}=0\\quad\\partial\\mathcal{L}\\times[0,T]\\text{ üzerinde}\\)\n\n\n\n\nFaz alanı yöntemiyle modellenen, çentikten başlayan çatlak ilerlemesi.\n\n\n\nÇatlak ilerlemesi videosunu indirin.\n\n\n\nDeforme olmuş ağ üzerinde hasar alanı \\(d\\). Yer değiştirmeler, daha iyi görülebilmesi için 15 kat büyütülmüştür. Yakın görünüm, çentiği ve ilerleyen çatlağı gösterir. Video, kaydedilmiş 100 çözüm adımını izler."
   },
   {
-    "objectID": "tr/publications.html#tezler",
-    "href": "tr/publications.html#tezler",
-    "title": "Yayınlar",
-    "section": "Tezler",
-    "text": "Tezler\nDoktora — Tez başlığı: Computational modeling of hydraulic fracture in porous media\nGözenekli ortamlarda hidrolik kırılmayı modellemek için kohezif faz alanı yöntemini kullanarak termal, hidrolik, hasar ve poroelastik süreçleri birlikte ele alan bir model geliştirdik.\nYüksek Lisans — Tez başlığı: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nBir rüzgâr türbini rüzgâr veya dalga etkisiyle tekrarlı yüklere maruz kaldığında, kazıklı temel gerilmeleri daneli zemine aktarır. Bu yükleme, temel zemininde kalıcı deformasyona ve zamanla kazık başının yer değiştirmesine yol açar. Kazığın kalıcı yer değiştirmesinin tahmini, büyük ölçüde kazığın içinde bulunduğu daneli zeminin davranışının anlaşılmasına bağlıdır."
+    "objectID": "tr/simulations.html#akışkankatı-etkileşimi",
+    "href": "tr/simulations.html#akışkankatı-etkileşimi",
+    "title": "Simülasyonlar",
+    "section": "Akışkan–katı etkileşimi",
+    "text": "Akışkan–katı etkileşimi\n\n\n\nGözenekli ortamda akış, ısı transferi, mekanik denge ve çatlak ilerlemesi arasındaki etkileşim.\n\n\n\nDoktora tezimden bir çizim: gözenekli ortamlarda hidrolik kırılmayı etkileyen bağlı fiziksel süreçler. Çizim: Muhittin Babaoglu."
+  },
+  {
+    "objectID": "tr/index.html",
+    "href": "tr/index.html",
+    "title": "Muhittin Babaoglu",
+    "section": "",
+    "text": "E-posta\n  \n  \n    \n     GitHub\n  \n\n      \n\n\n\nKırılma Mekaniği\nGeomekanik\nHesaplamalı Modelleme\nHidrolik Kırılma\n\n\n\n\nDoktora, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025\nYüksek Lisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020\nLisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015"
+  },
+  {
+    "objectID": "tr/index.html#araştırma-alanları",
+    "href": "tr/index.html#araştırma-alanları",
+    "title": "Muhittin Babaoglu",
+    "section": "",
+    "text": "Kırılma Mekaniği\nGeomekanik\nHesaplamalı Modelleme\nHidrolik Kırılma"
+  },
+  {
+    "objectID": "tr/index.html#eğitim",
+    "href": "tr/index.html#eğitim",
+    "title": "Muhittin Babaoglu",
+    "section": "",
+    "text": "Doktora, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025\nYüksek Lisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020\nLisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015"
   },
   {
     "objectID": "publications.html",
@@ -63,38 +84,45 @@
     "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc., Civil Engineering, Middle East Technical University, 2015"
   },
   {
-    "objectID": "index.html#three-point-bending",
-    "href": "index.html#three-point-bending",
-    "title": "Muhittin Babaoglu",
-    "section": "Three-point bending",
-    "text": "Three-point bending\nCrack propagation from a notch, modeled with a phase-field formulation.\n\n\n\nDownload the crack-propagation video.\n\n\n\nDamage field \\(d\\) on the deformed mesh. Displacements are magnified 15× for visibility. The inset shows the notch and propagating crack. Playback follows 100 saved simulation steps."
-  },
-  {
-    "objectID": "tr/index.html",
-    "href": "tr/index.html",
-    "title": "Muhittin Babaoglu",
+    "objectID": "simulations.html",
+    "href": "simulations.html",
+    "title": "Simulations",
     "section": "",
-    "text": "E-posta\n  \n  \n    \n     GitHub\n  \n\n      \n\n\n\nKırılma Mekaniği\nGeomekanik\nHesaplamalı Modelleme\nHidrolik Kırılma\n\n\n\n\nDoktora, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025\nYüksek Lisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020\nLisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015"
+    "text": "Fields\nEquations\nBCs\n\n\n\n\n\\(\\boldsymbol{u}(\\boldsymbol{x},t)\\)\n\\(\\operatorname{div}(\\underline{\\boldsymbol{\\sigma}})+\\bar{\\boldsymbol{b}}=\\boldsymbol{0}\\)\n\\(\\begin{aligned}\\boldsymbol{u}&=\\bar{\\boldsymbol{u}} &&\\text{on }\\partial\\mathcal{B}_{u}\\times[0,T]\\\\ \\underline{\\boldsymbol{\\sigma}}\\boldsymbol{n}&=\\bar{\\boldsymbol{t}} &&\\text{on }\\partial\\mathcal{B}_{t}\\times[0,T]\\end{aligned}\\)\n\n\n\\(d(\\boldsymbol{x},t)\\)\n\\(\\operatorname{div}\\boldsymbol{q}_{d}-\\underline{\\mathcal{H}}_{d}+f_{d}=0\\)\n\\(\\boldsymbol{q}_{d}\\cdot\\boldsymbol{n}_{\\mathcal{L}}=0\\quad\\text{on }\\partial\\mathcal{L}\\times[0,T]\\)\n\n\n\n\nCrack propagation from a notch, modeled with a phase-field formulation.\n\n\n\nDownload the crack-propagation video.\n\n\n\nDamage field \\(d\\) on the deformed mesh. Displacements are magnified 15× for visibility. The inset shows the notch and propagating crack. Playback follows 100 saved simulation steps."
   },
   {
-    "objectID": "tr/index.html#araştırma-alanları",
-    "href": "tr/index.html#araştırma-alanları",
-    "title": "Muhittin Babaoglu",
+    "objectID": "simulations.html#three-point-bending",
+    "href": "simulations.html#three-point-bending",
+    "title": "Simulations",
     "section": "",
-    "text": "Kırılma Mekaniği\nGeomekanik\nHesaplamalı Modelleme\nHidrolik Kırılma"
+    "text": "Fields\nEquations\nBCs\n\n\n\n\n\\(\\boldsymbol{u}(\\boldsymbol{x},t)\\)\n\\(\\operatorname{div}(\\underline{\\boldsymbol{\\sigma}})+\\bar{\\boldsymbol{b}}=\\boldsymbol{0}\\)\n\\(\\begin{aligned}\\boldsymbol{u}&=\\bar{\\boldsymbol{u}} &&\\text{on }\\partial\\mathcal{B}_{u}\\times[0,T]\\\\ \\underline{\\boldsymbol{\\sigma}}\\boldsymbol{n}&=\\bar{\\boldsymbol{t}} &&\\text{on }\\partial\\mathcal{B}_{t}\\times[0,T]\\end{aligned}\\)\n\n\n\\(d(\\boldsymbol{x},t)\\)\n\\(\\operatorname{div}\\boldsymbol{q}_{d}-\\underline{\\mathcal{H}}_{d}+f_{d}=0\\)\n\\(\\boldsymbol{q}_{d}\\cdot\\boldsymbol{n}_{\\mathcal{L}}=0\\quad\\text{on }\\partial\\mathcal{L}\\times[0,T]\\)\n\n\n\n\nCrack propagation from a notch, modeled with a phase-field formulation.\n\n\n\nDownload the crack-propagation video.\n\n\n\nDamage field \\(d\\) on the deformed mesh. Displacements are magnified 15× for visibility. The inset shows the notch and propagating crack. Playback follows 100 saved simulation steps."
   },
   {
-    "objectID": "tr/index.html#eğitim",
-    "href": "tr/index.html#eğitim",
-    "title": "Muhittin Babaoglu",
+    "objectID": "simulations.html#fluidsolid-interaction",
+    "href": "simulations.html#fluidsolid-interaction",
+    "title": "Simulations",
+    "section": "Fluid–solid interaction",
+    "text": "Fluid–solid interaction\n\n\n\nInteraction between fluid flow, heat transfer, mechanical equilibrium and fracture propagation in a porous medium.\n\n\n\nAn illustration from my doctoral thesis, showing the coupled processes involved in hydraulic fracturing of porous media. Drawing by Muhittin Babaoglu."
+  },
+  {
+    "objectID": "tr/publications.html",
+    "href": "tr/publications.html",
+    "title": "Yayınlar",
     "section": "",
-    "text": "Doktora, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025\nYüksek Lisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020\nLisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015"
+    "text": "A topological approach to crack path detection and crack opening displacement calculation in phase-field models of fracture Computer Methods in Applied Mechanics and Engineering (2026) [Yayıncı Sayfası]"
   },
   {
-    "objectID": "tr/index.html#üç-noktalı-eğilme",
-    "href": "tr/index.html#üç-noktalı-eğilme",
-    "title": "Muhittin Babaoglu",
-    "section": "Üç noktalı eğilme",
-    "text": "Üç noktalı eğilme\nFaz alanı yöntemiyle modellenen, çentikten başlayan çatlak ilerlemesi.\n\n\n\nÇatlak ilerlemesi videosunu indirin.\n\n\n\nDeforme olmuş ağ üzerinde hasar alanı \\(d\\). Yer değiştirmeler, daha iyi görülebilmesi için 15 kat büyütülmüştür. Yakın görünüm, çentiği ve ilerleyen çatlağı gösterir. Video, kaydedilmiş 100 çözüm adımını izler."
+    "objectID": "tr/publications.html#dergi-makaleleri",
+    "href": "tr/publications.html#dergi-makaleleri",
+    "title": "Yayınlar",
+    "section": "",
+    "text": "A topological approach to crack path detection and crack opening displacement calculation in phase-field models of fracture Computer Methods in Applied Mechanics and Engineering (2026) [Yayıncı Sayfası]"
+  },
+  {
+    "objectID": "tr/publications.html#tezler",
+    "href": "tr/publications.html#tezler",
+    "title": "Yayınlar",
+    "section": "Tezler",
+    "text": "Tezler\nDoktora — Tez başlığı: Computational modeling of hydraulic fracture in porous media\nGözenekli ortamlarda hidrolik kırılmayı modellemek için kohezif faz alanı yöntemini kullanarak termal, hidrolik, hasar ve poroelastik süreçleri birlikte ele alan bir model geliştirdik.\nYüksek Lisans — Tez başlığı: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nBir rüzgâr türbini rüzgâr veya dalga etkisiyle tekrarlı yüklere maruz kaldığında, kazıklı temel gerilmeleri daneli zemine aktarır. Bu yükleme, temel zemininde kalıcı deformasyona ve zamanla kazık başının yer değiştirmesine yol açar. Kazığın kalıcı yer değiştirmesinin tahmini, büyük ölçüde kazığın içinde bulunduğu daneli zeminin davranışının anlaşılmasına bağlıdır."
   }
 ]

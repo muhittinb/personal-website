@@ -31,16 +31,3 @@ about:
 **B.Sc.**, Civil Engineering, Middle East Technical University, 2015
 
 :::
-
-## Three-point bending
-
-Crack propagation from a notch, modeled with a phase-field formulation.
-
-<video class="research-video" controls loop playsinline preload="none" poster="fig/three-point-bending.webp" aria-label="Phase-field simulation of crack propagation in a three-point bending test">
-  <source src="fig/three-point-bending.mp4" type="video/mp4">
-  <p><a href="fig/three-point-bending.mp4">Download the crack-propagation video.</a></p>
-</video>
-
-::: {.video-caption}
-Damage field $d$ on the deformed mesh. Displacements are magnified **15×** for visibility. The inset shows the notch and propagating crack. Playback follows 100 saved simulation steps.
-:::

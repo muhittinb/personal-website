@@ -21,3 +21,35 @@
   font-size: 0.9em;
   line-height: 1.6;
 }
+
+.model-equations {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1.25rem 0;
+}
+
+.model-equations table {
+  width: 100%;
+}
+
+.model-equations th,
+.model-equations td {
+  padding: 0.85rem 0.65rem;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.interaction-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+}
+
+.figure-note {
+  max-width: 760px;
+  margin: 0 auto 2rem;
+  color: #526272;
+  font-size: 0.95em;
+  line-height: 1.65;
+}

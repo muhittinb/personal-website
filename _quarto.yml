@@ -3,6 +3,8 @@ project:
   output-dir: _site
   resources:
     - fig/three-point-bending.webp
+    - fig/fluid-solid-interaction-en.svg
+    - fig/fluid-solid-interaction-tr.svg
     - "!3p_website/**"
     - "!scripts/**"
 
@@ -17,8 +19,8 @@ website:
         text: Publications
       - text: "Teaching"      
         href: teaching.qmd  
-      - text: "Codes"
-        href: codes.qmd
+      - text: "Simulations"
+        href: simulations.qmd
     right:
       - href: index.qmd
         text: English
@@ -29,5 +31,5 @@ format:
   html:
     theme: minimal  # "cosmo", "journal", or "minimal" are good for academics
     css: styles.css
-    toc: true
+    toc: false
     include-after-body: language-switch.html

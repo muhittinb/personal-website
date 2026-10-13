@@ -95,11 +95,19 @@ def main():
             beam_ax.set_xlim(xmin - 20, xmax + 35)
             beam_ax.set_ylim(ymin - 30, ymax + 45)
             # Symbols mark the constrained bottom corners and imposed top displacement.
-            for node in support_nodes:
+            for support_index, node in enumerate(support_nodes):
                 x, y = deformed[node]
                 beam_ax.add_patch(Polygon([(x, y - 2), (x - 7, y - 14), (x + 7, y - 14)],
                                           facecolor="#fbfcfe", edgecolor="#537696", linewidth=1.6))
-                beam_ax.plot([x - 12, x + 12], [y - 18, y - 18], color="#537696", linewidth=1.6)
+                if support_index == 0:
+                    # Pinned support: the triangle sits directly on hatched ground.
+                    ground_y = y - 14
+                    beam_ax.plot([x - 12, x + 12], [ground_y, ground_y], color="#537696", linewidth=1.6)
+                    for offset in range(-10, 13, 4):
+                        beam_ax.plot([x + offset - 3, x + offset],
+                                     [ground_y - 4, ground_y], color="#537696", linewidth=1)
+                else:
+                    beam_ax.plot([x - 12, x + 12], [y - 18, y - 18], color="#537696", linewidth=1.6)
             x, y = deformed[load_node]
             beam_ax.annotate("", xy=(x, y + 2), xytext=(x, y + 29),
                              arrowprops=dict(arrowstyle="-|>", color="#243f58", lw=2, mutation_scale=15))

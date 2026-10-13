@@ -69,40 +69,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -127,8 +98,8 @@ window.Quarto = {
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../codes.html"> 
-<span class="menu-text">Codes</span></a>
+    <a class="nav-link" href="../simulations.html"> 
+<span class="menu-text">Simulations</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -151,15 +122,7 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">İçindekiler</h2>
-   
-  <ul>
-  <li><a href="#üç-noktalı-eğilme" id="toc-üç-noktalı-eğilme" class="nav-link active" data-scroll-target="#üç-noktalı-eğilme">Üç noktalı eğilme</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
@@ -208,22 +171,9 @@ window.Quarto = {
   </div>
 </div>
 
-<section id="üç-noktalı-eğilme" class="level2">
-<h2 data-anchor-id="üç-noktalı-eğilme">Üç noktalı eğilme</h2>
-<p>Faz alanı yöntemiyle modellenen, çentikten başlayan çatlak ilerlemesi.</p>
-<video class="research-video" controls="" loop="" playsinline="" preload="none" poster="../fig/three-point-bending.webp" aria-label="Üç noktalı eğilme deneyinde çatlak ilerlemesinin faz alanı yöntemiyle modellenmesi">
-<source src="../fig/three-point-bending.mp4" type="video/mp4">
-<p>
-<a href="../fig/three-point-bending.mp4">Çatlak ilerlemesi videosunu indirin.</a>
-</p>
-</video>
-<div class="video-caption">
-<p>Deforme olmuş ağ üzerinde hasar alanı <span class="math inline">\(d\)</span>. Yer değiştirmeler, daha iyi görülebilmesi için <strong>15 kat</strong> büyütülmüştür. Yakın görünüm, çentiği ve ilerleyen çatlağı gösterir. Video, kaydedilmiş 100 çözüm adımını izler.</p>
-</div>
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script>
@@ -242,7 +192,7 @@ window.Quarto = {
     ['Home', 'index.html', 'Ana Sayfa'],
     ['Publications', 'publications.html', 'Yayınlar'],
     ['Teaching', 'teaching.html', 'Dersler'],
-    ['Codes', 'codes.html', 'Kodlar'],
+    ['Simulations', 'simulations.html', 'Simülasyonlar'],
   ];
   const filename = window.location.pathname.split('/').pop() || 'index.html';
   const currentPage = pages.some(([, page]) => page === filename) ? filename : 'index.html';
