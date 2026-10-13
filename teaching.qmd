@@ -8,6 +8,8 @@ title: "Teaching"
 
 ## 🎓 Dersler (Courses)
 
+### Matematik-3 (Multivariable Calculus)
+
 ### Zemin Mekaniği 1 (Soil Mechanics I)
 
 ### Zemin Mekaniği 2 (Soil Mechanics II)
