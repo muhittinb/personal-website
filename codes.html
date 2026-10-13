@@ -103,6 +103,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Codes</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">English</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./tr/index.html"> 
+<span class="menu-text">Türkçe</span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
@@ -142,6 +152,57 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+(() => {
+  const links = Array.from(document.querySelectorAll('.navbar .nav-link'));
+  const findLink = label => links.find(link => link.querySelector('.menu-text')?.textContent.trim() === label);
+  const home = findLink('Home');
+  const english = findLink('English');
+  const turkish = findLink('Türkçe');
+  if (!home || !english || !turkish) return;
+
+  // Quarto resolves this link relative to the site, including subdirectory hosting.
+  const root = new URL('.', home.href);
+  const isTurkish = document.documentElement.lang.startsWith('tr');
+  const pages = [
+    ['Home', 'index.html', 'Ana Sayfa'],
+    ['Publications', 'publications.html', 'Yayınlar'],
+    ['Teaching', 'teaching.html', 'Dersler'],
+    ['Codes', 'codes.html', 'Kodlar'],
+  ];
+  const filename = window.location.pathname.split('/').pop() || 'index.html';
+  const currentPage = pages.some(([, page]) => page === filename) ? filename : 'index.html';
+
+  pages.forEach(([originalLabel, page, label]) => {
+    const link = findLink(originalLabel);
+    if (!link) return;
+    link.href = new URL((isTurkish ? 'tr/' : '') + page, root).href;
+    if (isTurkish) link.querySelector('.menu-text').textContent = label;
+    const active = page === currentPage;
+    link.classList.toggle('active', active);
+    if (active) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
+  });
+
+  [[english, 'en', currentPage], [turkish, 'tr', 'tr/' + currentPage]].forEach(([link, lang, path]) => {
+    link.href = new URL(path, root).href;
+    link.lang = lang;
+    link.hreflang = lang;
+    link.classList.add('language-link');
+    link.classList.toggle('active', lang === (isTurkish ? 'tr' : 'en'));
+    link.removeAttribute('aria-current');
+    if (lang === (isTurkish ? 'tr' : 'en')) link.setAttribute('aria-current', 'true');
+    const alternate = document.createElement('link');
+    alternate.rel = 'alternate';
+    alternate.hreflang = lang;
+    alternate.href = link.href;
+    document.head.appendChild(alternate);
+  });
+
+  const toggle = document.querySelector('.navbar-toggler');
+  if (isTurkish && toggle) toggle.setAttribute('aria-label', 'Gezinme menüsünü aç/kapat');
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "tr/publications.html",
+    "href": "tr/publications.html",
+    "title": "Yayınlar",
+    "section": "",
+    "text": "A topological approach to crack path detection and crack opening displacement calculation in phase-field models of fracture Computer Methods in Applied Mechanics and Engineering (2026) [Yayıncı Sayfası]"
+  },
+  {
+    "objectID": "tr/publications.html#dergi-makaleleri",
+    "href": "tr/publications.html#dergi-makaleleri",
+    "title": "Yayınlar",
+    "section": "",
+    "text": "A topological approach to crack path detection and crack opening displacement calculation in phase-field models of fracture Computer Methods in Applied Mechanics and Engineering (2026) [Yayıncı Sayfası]"
+  },
+  {
+    "objectID": "tr/publications.html#tezler",
+    "href": "tr/publications.html#tezler",
+    "title": "Yayınlar",
+    "section": "Tezler",
+    "text": "Tezler\nDoktora — Tez başlığı: Computational modeling of hydraulic fracture in porous media\nGözenekli ortamlarda hidrolik kırılmayı modellemek için kohezif faz alanı yöntemini kullanarak termal, hidrolik, hasar ve poroelastik süreçleri birlikte ele alan bir model geliştirdik.\nYüksek Lisans — Tez başlığı: Finite element implementation of a model to estimate the permanent strain of cyclically-loaded soil\nBir rüzgâr türbini rüzgâr veya dalga etkisiyle tekrarlı yüklere maruz kaldığında, kazıklı temel gerilmeleri daneli zemine aktarır. Bu yükleme, temel zemininde kalıcı deformasyona ve zamanla kazık başının yer değiştirmesine yol açar. Kazığın kalıcı yer değiştirmesinin tahmini, büyük ölçüde kazığın içinde bulunduğu daneli zeminin davranışının anlaşılmasına bağlıdır."
+  },
+  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
@@ -40,5 +61,26 @@
     "title": "Muhittin Babaoglu",
     "section": "Research Interests",
     "text": "Research Interests\n\nFracture Mechanics\nGeomechanics\nComputational Modeling\nHydraulic Fracturing"
+  },
+  {
+    "objectID": "tr/index.html",
+    "href": "tr/index.html",
+    "title": "Muhittin Babaoglu",
+    "section": "",
+    "text": "Doktora, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025\nYüksek Lisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020\nLisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015"
+  },
+  {
+    "objectID": "tr/index.html#eğitim",
+    "href": "tr/index.html#eğitim",
+    "title": "Muhittin Babaoglu",
+    "section": "",
+    "text": "Doktora, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025\nYüksek Lisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020\nLisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015"
+  },
+  {
+    "objectID": "tr/index.html#araştırma-alanları",
+    "href": "tr/index.html#araştırma-alanları",
+    "title": "Muhittin Babaoglu",
+    "section": "Araştırma Alanları",
+    "text": "Araştırma Alanları\n\nKırılma Mekaniği\nGeomekanik\nHesaplamalı Modelleme\nHidrolik Kırılma"
   }
 ]
