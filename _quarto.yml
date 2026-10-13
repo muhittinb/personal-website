@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - fig/three-point-bending.webp
+    - "!3p_website/**"
+    - "!scripts/**"
 
 website:
   site-url: https://muhittin.org

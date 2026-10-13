@@ -1,2 +1,4 @@
 /.quarto/
 **/*.quarto_ipynb
+/3p_website/
+/_site/3p_website/
