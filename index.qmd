@@ -17,10 +17,12 @@ about:
 
 ## Research Interests
 
-* Fracture Mechanics
-* Geomechanics
-* Computational Modeling
-* Hydraulic Fracturing
+<ul class="research-areas">
+  <li><img src="fig/research-icon-fracture.svg" alt="" width="44" height="44"><span>Fracture Mechanics</span></li>
+  <li><img src="fig/research-icon-geomechanics.svg" alt="" width="44" height="44"><span>Geomechanics</span></li>
+  <li><img src="fig/research-icon-modeling.svg" alt="" width="44" height="44"><span>Computational Modeling</span></li>
+  <li><img src="fig/research-icon-hydraulic.svg" alt="" width="44" height="44"><span>Hydraulic Fracturing</span></li>
+</ul>
 
 ## Education
 
@@ -31,3 +33,16 @@ about:
 **B.Sc.**, Civil Engineering, Middle East Technical University, 2015
 
 :::
+
+## Research at a glance
+
+<figure class="research-schematic">
+  <ol class="research-process">
+    <li><img src="fig/research-porous-medium.svg" alt="" width="280" height="180"><span>Porous medium</span></li>
+    <li><img src="fig/research-coupled-processes.svg" alt="" width="280" height="180"><span>Fluid–solid interaction</span></li>
+    <li><img src="fig/research-computational-model.svg" alt="" width="280" height="180"><span>Computational model</span></li>
+  </ol>
+  <figcaption>Fracture and coupled processes in porous media, studied through computational modeling.</figcaption>
+</figure>
+
+[Explore simulations →](simulations.qmd)
