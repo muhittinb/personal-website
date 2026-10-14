@@ -25,14 +25,14 @@
     "href": "tr/index.html",
     "title": "Muhittin Babaoglu",
     "section": "",
-    "text": "E-posta\n  \n  \n    \n     GitHub\n  \n\n      \n\n\n\nKırılma Mekaniği\nGeomekanik\nHesaplamalı Modelleme\nHidrolik Kırılma\n\n\n\n\nDoktora, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025\nYüksek Lisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020\nLisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015"
+    "text": "E-posta\n  \n  \n    \n     GitHub\n  \n\n      \n\n\n\n\nKırılma Mekaniği\n\n\nGeomekanik\n\n\nHesaplamalı Modelleme\n\n\nHidrolik Kırılma\n\n\n\n\n\nDoktora, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025\nYüksek Lisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020\nLisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015"
   },
   {
     "objectID": "tr/index.html#araştırma-alanları",
     "href": "tr/index.html#araştırma-alanları",
     "title": "Muhittin Babaoglu",
     "section": "",
-    "text": "Kırılma Mekaniği\nGeomekanik\nHesaplamalı Modelleme\nHidrolik Kırılma"
+    "text": "Kırılma Mekaniği\n\n\nGeomekanik\n\n\nHesaplamalı Modelleme\n\n\nHidrolik Kırılma"
   },
   {
     "objectID": "tr/index.html#eğitim",
@@ -40,6 +40,13 @@
     "title": "Muhittin Babaoglu",
     "section": "",
     "text": "Doktora, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2025\nYüksek Lisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2020\nLisans, İnşaat Mühendisliği, Orta Doğu Teknik Üniversitesi, 2015"
+  },
+  {
+    "objectID": "tr/index.html#araştırmaya-genel-bakış",
+    "href": "tr/index.html#araştırmaya-genel-bakış",
+    "title": "Muhittin Babaoglu",
+    "section": "Araştırmaya genel bakış",
+    "text": "Araştırmaya genel bakış\n\n\n\nGözenekli ortam\n\n\nAkışkan–katı etkileşimi\n\n\nHesaplamalı model\n\n\n\nGözenekli ortamlarda çatlak ve bağlı fiziksel süreçlerin hesaplamalı yöntemlerle incelenmesi.\n\n\nSimülasyonları inceleyin →"
   },
   {
     "objectID": "publications.html",
@@ -67,14 +74,14 @@
     "href": "index.html",
     "title": "Muhittin Babaoglu",
     "section": "",
-    "text": "Email\n  \n  \n    \n     Github\n  \n\n      \n\n\n\nFracture Mechanics\nGeomechanics\nComputational Modeling\nHydraulic Fracturing\n\n\n\n\nPh.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc., Civil Engineering, Middle East Technical University, 2015"
+    "text": "Email\n  \n  \n    \n     Github\n  \n\n      \n\n\n\n\nFracture Mechanics\n\n\nGeomechanics\n\n\nComputational Modeling\n\n\nHydraulic Fracturing\n\n\n\n\n\nPh.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc., Civil Engineering, Middle East Technical University, 2015"
   },
   {
     "objectID": "index.html#research-interests",
     "href": "index.html#research-interests",
     "title": "Muhittin Babaoglu",
     "section": "",
-    "text": "Fracture Mechanics\nGeomechanics\nComputational Modeling\nHydraulic Fracturing"
+    "text": "Fracture Mechanics\n\n\nGeomechanics\n\n\nComputational Modeling\n\n\nHydraulic Fracturing"
   },
   {
     "objectID": "index.html#education",
@@ -82,6 +89,13 @@
     "title": "Muhittin Babaoglu",
     "section": "",
     "text": "Ph.D., Civil Engineering, Middle East Technical University, 2025\nM.Sc., Civil Engineering, Middle East Technical University, 2020\nB.Sc., Civil Engineering, Middle East Technical University, 2015"
+  },
+  {
+    "objectID": "index.html#research-at-a-glance",
+    "href": "index.html#research-at-a-glance",
+    "title": "Muhittin Babaoglu",
+    "section": "Research at a glance",
+    "text": "Research at a glance\n\n\n\nPorous medium\n\n\nFluid–solid interaction\n\n\nComputational model\n\n\n\nFracture and coupled processes in porous media, studied through computational modeling.\n\n\nExplore simulations →"
   },
   {
     "objectID": "simulations.html",
