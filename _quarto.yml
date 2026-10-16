@@ -11,6 +11,13 @@ project:
 
 website:
   site-url: https://muhittin.org
+  google-analytics:
+    tracking-id: "G-HRDZG1QQHR"
+    version: 4
+  cookie-consent:
+    type: express
+    style: simple
+    palette: light
   favicon: fig/favicon2.png
   navbar:
     left:
@@ -33,4 +40,6 @@ format:
     theme: minimal  # "cosmo", "journal", or "minimal" are good for academics
     css: styles.css
     toc: false
-    include-after-body: language-switch.html
+    include-after-body:
+      - language-switch.html
+      - analytics-events.html

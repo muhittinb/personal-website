@@ -47,5 +47,14 @@
 
   const toggle = document.querySelector('.navbar-toggler');
   if (isTurkish && toggle) toggle.setAttribute('aria-label', 'Gezinme menüsünü aç/kapat');
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const notice = document.querySelector('#termsfeed-com---nb .cc-nb-text');
+    if (notice) notice.textContent = isTurkish
+      ? 'İzin verirseniz Google Analytics çerezleriyle ziyaret kaynaklarını, görüntülenen sayfaları ve site içindeki etkileşimleri ölçüyoruz. Analiz çerezlerini kabul edebilir, reddedebilir veya tercihlerinizi değiştirebilirsiniz.'
+      : 'With your permission, Google Analytics cookies help us measure traffic sources, page views and interactions with this website. You can accept or reject analytics cookies, or change your preferences.';
+    const preferences = document.getElementById('open_preferences_center');
+    if (preferences) preferences.textContent = isTurkish ? 'Çerez tercihleri' : 'Cookie preferences';
+  }, { once: true });
 })();
 </script>
