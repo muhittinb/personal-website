@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../fig/favicon2.png" rel="icon" type="image/png">
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -69,6 +71,33 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Ara"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HRDZG1QQHR"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-HRDZG1QQHR', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"tr"
+  });
+});
+</script> 
+  
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -214,6 +243,94 @@ ul.task-list li input[type="checkbox"] {
 
   const toggle = document.querySelector('.navbar-toggler');
   if (isTurkish && toggle) toggle.setAttribute('aria-label', 'Gezinme menüsünü aç/kapat');
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const notice = document.querySelector('#termsfeed-com---nb .cc-nb-text');
+    if (notice) notice.textContent = isTurkish
+      ? 'İzin verirseniz Google Analytics çerezleriyle ziyaret kaynaklarını, görüntülenen sayfaları ve site içindeki etkileşimleri ölçüyoruz. Analiz çerezlerini kabul edebilir, reddedebilir veya tercihlerinizi değiştirebilirsiniz.'
+      : 'With your permission, Google Analytics cookies help us measure traffic sources, page views and interactions with this website. You can accept or reject analytics cookies, or change your preferences.';
+    const preferences = document.getElementById('open_preferences_center');
+    if (preferences) preferences.textContent = isTurkish ? 'Çerez tercihleri' : 'Cookie preferences';
+  }, { once: true });
+})();
+</script>
+<script type="text/plain" cookie-consent="tracking">
+(() => {
+  // Custom interaction events are only sent from the public website.
+  if (!['muhittin.org', 'www.muhittin.org'].includes(window.location.hostname)) return;
+
+  const language = document.documentElement.lang.startsWith('tr') ? 'tr' : 'en';
+  const send = (name, parameters = {}) => {
+    if (typeof window.gtag !== 'function') return;
+    window.gtag('event', name, { site_language: language, ...parameters });
+  };
+
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href]');
+    if (!link) return;
+    const url = new URL(link.href, window.location.href);
+
+    if (link.classList.contains('language-link')) {
+      send('language_switch', { target_language: link.hreflang });
+    } else if (link.closest('.navbar') && url.origin === window.location.origin) {
+      send('navigation_click', { destination_path: url.pathname });
+    }
+
+    if (url.hostname === 'drive.google.com' && /\/teaching\.html$/.test(window.location.pathname)) {
+      // Only send the public course label, without document IDs or URL parameters.
+      send('course_material_click', { course_name: link.textContent.trim().slice(0, 100) });
+    }
+
+    if (url.protocol === 'mailto:') send('contact_click', { contact_method: 'email' });
+  });
+
+  const attachVideoEvents = () => {
+    document.querySelectorAll('video.research-video').forEach(video => {
+      let started = false;
+      let completed = false;
+      const milestones = new Set();
+      const parameters = () => ({
+        video_title: 'three_point_bending',
+        video_provider: 'self_hosted',
+        video_duration: Number.isFinite(video.duration) ? Math.round(video.duration) : 0,
+      });
+
+      video.addEventListener('play', () => {
+        if (started) return;
+        started = true;
+        send('video_start', parameters());
+      });
+
+      const reportProgress = () => {
+        if (!started || !Number.isFinite(video.duration) || video.duration <= 0) return;
+        // Played ranges measure watched content, excluding skipped sections.
+        let watched = 0;
+        for (let index = 0; index < video.played.length; index++) {
+          watched += video.played.end(index) - video.played.start(index);
+        }
+        const percent = Math.min(100, watched / video.duration * 100);
+        [25, 50, 75].forEach(milestone => {
+          if (percent >= milestone && !milestones.has(milestone)) {
+            milestones.add(milestone);
+            send('video_progress', { ...parameters(), video_percent: milestone });
+          }
+        });
+        // Looping videos do not emit "ended"; watched ranges also handle that case.
+        if (!completed && percent >= 99) {
+          completed = true;
+          send('video_complete', { ...parameters(), video_percent: 100 });
+        }
+      };
+      video.addEventListener('timeupdate', reportProgress);
+      video.addEventListener('ended', reportProgress);
+    });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', attachVideoEvents, { once: true });
+  } else {
+    attachVideoEvents();
+  }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
@@ -617,6 +734,19 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
