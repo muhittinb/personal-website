@@ -212,16 +212,18 @@ cookieconsent.run({
     ['Simulations', 'simulations.html', 'Simülasyonlar'],
   ];
   const filename = window.location.pathname.split('/').pop() || 'index.html';
-  const currentPage = pages.some(([, page]) => page === filename) ? filename : 'index.html';
+  const coursePages = ['matematik-3.html'];
+  const currentPage = pages.some(([, page]) => page === filename) || coursePages.includes(filename)
+    ? filename : 'index.html';
 
   pages.forEach(([originalLabel, page, label]) => {
     const link = findLink(originalLabel);
     if (!link) return;
     link.href = new URL((isTurkish ? 'tr/' : '') + page, root).href;
     if (isTurkish) link.querySelector('.menu-text').textContent = label;
-    const active = page === currentPage;
+    const active = page === currentPage || (page === 'teaching.html' && coursePages.includes(currentPage));
     link.classList.toggle('active', active);
-    if (active) link.setAttribute('aria-current', 'page');
+    if (active) link.setAttribute('aria-current', page === currentPage ? 'page' : 'location');
     else link.removeAttribute('aria-current');
   });
 
@@ -275,9 +277,9 @@ cookieconsent.run({
       send('navigation_click', { destination_path: url.pathname });
     }
 
-    if (url.hostname === 'drive.google.com' && /\/teaching\.html$/.test(window.location.pathname)) {
+    if (url.hostname === 'drive.google.com' && /\/(teaching|matematik-3)\.html$/.test(window.location.pathname)) {
       // Only send the public course label, without document IDs or URL parameters.
-      send('course_material_click', { course_name: link.textContent.trim().slice(0, 100) });
+      send('course_material_click', { course_name: link.dataset.course || link.textContent.trim().slice(0, 100) });
     }
 
     if (url.protocol === 'mailto:') send('contact_click', { contact_method: 'email' });
