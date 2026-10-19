@@ -4,7 +4,7 @@ title: "Dersler"
 
 ## 🎓 Dersler
 
-### [Matematik-3](https://drive.google.com/drive/folders/10gOU6U5oM0xP0sR7qX4e-oLmcqMgFDh8?usp=sharing){target="_blank"} (Çok Değişkenli Analiz)
+### [Matematik-3](matematik-3.qmd) (Çok Değişkenli Analiz)
 
 ### Zemin Mekaniği 1
 

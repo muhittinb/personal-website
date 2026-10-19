@@ -17,16 +17,18 @@
     ['Simulations', 'simulations.html', 'Simülasyonlar'],
   ];
   const filename = window.location.pathname.split('/').pop() || 'index.html';
-  const currentPage = pages.some(([, page]) => page === filename) ? filename : 'index.html';
+  const coursePages = ['matematik-3.html'];
+  const currentPage = pages.some(([, page]) => page === filename) || coursePages.includes(filename)
+    ? filename : 'index.html';
 
   pages.forEach(([originalLabel, page, label]) => {
     const link = findLink(originalLabel);
     if (!link) return;
     link.href = new URL((isTurkish ? 'tr/' : '') + page, root).href;
     if (isTurkish) link.querySelector('.menu-text').textContent = label;
-    const active = page === currentPage;
+    const active = page === currentPage || (page === 'teaching.html' && coursePages.includes(currentPage));
     link.classList.toggle('active', active);
-    if (active) link.setAttribute('aria-current', 'page');
+    if (active) link.setAttribute('aria-current', page === currentPage ? 'page' : 'location');
     else link.removeAttribute('aria-current');
   });
 

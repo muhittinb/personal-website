@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: _site
   resources:
+    - "tools/**"
     - "fig/research-*.svg"
     - fig/three-point-bending.webp
     - fig/fluid-solid-interaction-en.svg
