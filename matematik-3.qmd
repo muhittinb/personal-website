@@ -5,6 +5,10 @@ subtitle: "Multivariable Calculus"
 
 [Course materials — Google Drive](https://drive.google.com/drive/folders/10gOU6U5oM0xP0sR7qX4e-oLmcqMgFDh8?usp=sharing){.btn .btn-outline-primary target="_blank" rel="noopener" data-course="Matematik-3"}
 
+## Limits
+
+[Limits](tools/iki_degiskenli_limit_interaktif.html){.btn .btn-primary target="_blank" rel="noopener"}
+
 ## Partial derivatives
 
 [Partial derivatives](tools/kismi-turev-laboratuvari.html){.btn .btn-primary target="_blank" rel="noopener"}
