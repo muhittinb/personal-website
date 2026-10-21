@@ -15,15 +15,6 @@ about:
 
 ::: {#profile-content}
 
-## Research Interests
-
-<ul class="research-areas">
-  <li><img src="fig/research-icon-fracture.svg" alt="" width="44" height="44"><span>Fracture Mechanics</span></li>
-  <li><img src="fig/research-icon-geomechanics.svg" alt="" width="44" height="44"><span>Geomechanics</span></li>
-  <li><img src="fig/research-icon-modeling.svg" alt="" width="44" height="44"><span>Computational Modeling</span></li>
-  <li><img src="fig/research-icon-hydraulic.svg" alt="" width="44" height="44"><span>Hydraulic Fracturing</span></li>
-</ul>
-
 ## Education
 
 **Ph.D.**, Civil Engineering, Middle East Technical University, 2025
@@ -34,7 +25,14 @@ about:
 
 :::
 
-## Research at a glance
+## Research Interests
+
+<ul class="research-areas">
+  <li><img src="fig/research-icon-fracture.svg" alt="" width="44" height="44"><span>Fracture Mechanics</span></li>
+  <li><img src="fig/research-icon-geomechanics.svg" alt="" width="44" height="44"><span>Geomechanics</span></li>
+  <li><img src="fig/research-icon-modeling.svg" alt="" width="44" height="44"><span>Computational Modeling</span></li>
+  <li><img src="fig/research-icon-hydraulic.svg" alt="" width="44" height="44"><span>Hydraulic Fracturing</span></li>
+</ul>
 
 <figure class="research-schematic">
   <ol class="research-process">
@@ -42,7 +40,6 @@ about:
     <li><img src="fig/research-coupled-processes.svg" alt="" width="280" height="180"><span>Fluid–solid interaction</span></li>
     <li><img src="fig/research-computational-model.svg" alt="" width="280" height="180"><span>Computational model</span></li>
   </ol>
-  <figcaption>Fracture and coupled processes in porous media, studied through computational modeling.</figcaption>
 </figure>
 
 [Explore simulations →](simulations.qmd)
